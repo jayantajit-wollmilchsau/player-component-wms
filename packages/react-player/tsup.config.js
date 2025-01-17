@@ -12,7 +12,7 @@ export default defineConfig({
     resolve: true,
   },
   minify: true,
-  sourcemap: true,
+  sourcemap: false,
   treeshake: true,
   splitting: true,
   metafile: false,

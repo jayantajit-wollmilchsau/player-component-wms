@@ -12,7 +12,7 @@ export default defineConfig((options) => ({
   bundle: true,
   clean: true,
   dts: true,
-  sourcemap: true,
+  sourcemap: false,
   minify: !options.watch,
   treeshake: true,
   splitting: true,
